@@ -18,3 +18,8 @@
 
 // SELECT * FROM users WHERE name = 'Diego'     SQL
 // knex('users').where('name', 'Diego').select('*')    KNEX
+
+
+ // Migration = HISTORICO DO BANCO DE DADOS 
+
+ //

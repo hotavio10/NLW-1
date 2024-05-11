@@ -10,6 +10,4 @@
 
  export default connection;
 
- // Migration = HISTORICO DO BANCO DE DADOS 
-
- // 
+ 

@@ -1,0 +1,20 @@
+
+
+//Rota: Endereço da requisição completo 
+//Recurso: Qual entidade estamos acessando(users)
+
+//Get: Buscar uma ou mais informaçãoes
+//POST: cRIAR UMA NOVA INFORMAÇÃO
+//PUT: ATUALIZAR UMA INFORMAÇÃO EXCISTENTE
+//DELETE: REMOVER UMA INFORMAÇÃO 
+
+//POST https://localhost:3333/users = criar um usúario
+//GET http://localhost:3333/users = Listar usuarios
+// GET http://localhost:3333/users/5 = Buscar dados do usuarios com ID
+
+// Request Param: Parâmetro que vem na própria rota que identificam um recurso 
+//Query param: Parametros que vem na proproa rota feralmente opcionais para filtros, paginação
+//Request body: parametros para criacao/atualização de informaçoes
+
+// SELECT * FROM users WHERE name = 'Diego'     SQL
+// knex('users').where('name', 'Diego').select('*')    KNEX

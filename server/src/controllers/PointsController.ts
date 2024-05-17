@@ -17,7 +17,7 @@ class PointsController {
         .distinct()
         .select('points.*');
 
-        return response.json(points);
+        return response.json();
     }
 
     async show(request: Request, response: Response) {
